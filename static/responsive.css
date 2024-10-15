@@ -1,0 +1,72 @@
+
+@media only screen and (max-width: 1160px) {
+      /* Navbar */
+    #navbar{
+        flex-direction: column;
+        /* height: 450px;  */
+        transition: all 0.7s ease-out;
+    }
+    
+    #navbar ul {
+        flex-direction: column;
+    }
+
+    #navbar ul li a:hover {
+       border: none;
+    }
+
+    #navbar .right{
+        text-align: center;
+    }
+
+    #navbar .right #search{
+        width: 100%;
+    }
+
+    /* Burger of Navbar */
+
+    #navbar .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 72px;
+    }
+
+    .v-nav-resp{
+        visibility: hidden;
+    }
+
+    /* Section  */
+
+    .firstsection .box-main {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    .text-big{
+        text-align: center;
+    }
+    
+    .text-small{
+        text-align: center;
+    }
+    
+    .button{
+        text-align: center;
+    }
+    
+    .secondsection{
+        flex-direction: column-reverse;
+    }
+
+    .secondsection .sec img{
+        width: 250px;
+    }
+
+
+
+    .contact .con-input {
+        max-width: 64%;
+    }
+}
